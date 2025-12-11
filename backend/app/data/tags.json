@@ -1,0 +1,110 @@
+[
+  {
+    "category": "Atmosphere",
+    "tag": "Quiet",
+    "description": "Calm, peaceful vibe, good for working/reading",
+    "example": "A café with soft music & seating"
+  },
+  {
+    "category": "Atmosphere",
+    "tag": "Cosy",
+    "description": "Warm, homely atmosphere",
+    "example": "Farmhouse-style café"
+  },
+  {
+    "category": "Atmosphere",
+    "tag": "Lively",
+    "description": "Busy, social, lots of chatter",
+    "example": "Popular brunch spot"
+  },
+  {
+    "category": "Atmosphere",
+    "tag": "Trendy",
+    "description": "Modern, stylish, Instagram-worthy",
+    "example": "Minimalist coffee house"
+  },
+  {
+    "category": "Atmosphere",
+    "tag": "Family-friendly",
+    "description": "Good for kids, play area or high chairs",
+    "example": "Café with children’s menu"
+  },
+  {
+    "category": "Price Range",
+    "tag": "£",
+    "description": "Budget: under ~£7 per item",
+    "example": "Bakery with sandwiches & coffee"
+  },
+  {
+    "category": "Price Range",
+    "tag": "££",
+    "description": "Mid-range: £8–15 per item",
+    "example": "Sit-down cafés"
+  },
+  {
+    "category": "Price Range",
+    "tag": "£££",
+    "description": "Premium: £15+ per item",
+    "example": "High-end restaurant café"
+  },
+  {
+    "category": "Features",
+    "tag": "Outdoor seating",
+    "description": "Has garden, terrace, or outdoor tables",
+    "example": "Café with patio"
+  },
+  {
+    "category": "Features",
+    "tag": "Dog-friendly",
+    "description": "Allows dogs inside or outside",
+    "example": "Pub with dog bowls"
+  },
+  {
+    "category": "Features",
+    "tag": "WiFi",
+    "description": "Provides free internet",
+    "example": "Laptop-friendly café"
+  },
+  {
+    "category": "Features",
+    "tag": "Late-night",
+    "description": "Open later than 9pm",
+    "example": "Evening café-bar"
+  },
+  {
+    "category": "Features",
+    "tag": "Heritage/local",
+    "description": "Historic or locally iconic",
+    "example": "Farrer’s Tea & Coffee House"
+  },
+  {
+    "category": "Features",
+    "tag": "Instagrammable",
+    "description": "Popular for photos, aesthetic interior",
+    "example": "Modern café with mural"
+  },
+  {
+    "category": "Dietary",
+    "tag": "Vegan options",
+    "description": "Offers vegan menu items",
+    "example": "Oat milk lattes, vegan cakes"
+  },
+  {
+    "category": "Dietary",
+    "tag": "Vegetarian-friendly",
+    "description": "Plenty of vegetarian meals",
+    "example": "Brunch café"
+  },
+  {
+    "category": "Dietary",
+    "tag": "Gluten-free options",
+    "description": "Gluten-free meals or cakes available",
+    "example": "Bakery with GF bread"
+  },
+  {
+    "category": "Dietary",
+    "tag": "Dairy-free options",
+    "description": "Plant milks, dairy-free meals",
+    "example": "Café with oat/soy milk"
+  }
+]

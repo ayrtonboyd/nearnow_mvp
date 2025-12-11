@@ -1,0 +1,26 @@
+NEARNOW — SMOKE TEST
+
+Purpose:
+This test ensures the LLM pipeline, dataset loading, and system prompt are functioning correctly.
+
+How to run:
+Open a browser and enter:
+
+http://127.0.0.1:8000/api/recommend?query=Find+a+cosy+cafe+open+for+lunch+that+allows+dogs
+
+Expected behaviour:
+- Returns exactly 2–3 cafés
+- All must be dog-friendly
+- All must be cosy
+- All must be open for lunch (10am–3pm)
+- Intro line is varied, warm, and under 20 words
+- Two main options under 35 words
+- Third contrasting option under 25 words (if available)
+- Ending line under 10 words and rotated
+- No apologetic language (“only one that fits”)
+- No tag lists, no bullet points
+- No external knowledge or invented details
+- Total ≈ 120 words or less
+
+If any condition fails → do not deploy further code.
+Fix the prompt or dataset format first.

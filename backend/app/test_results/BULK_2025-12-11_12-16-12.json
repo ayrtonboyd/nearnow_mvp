@@ -1,0 +1,557 @@
+{
+  "summary": {
+    "average_score": 9.940000000000001,
+    "min_score": 9.6,
+    "max_score": 10.0,
+    "test_count": 20
+  },
+  "results": [
+    {
+      "question": "Find a cosy café that allows dogs.",
+      "answer": "I know just the spot for a cosy café that welcomes dogs.\n\nFarmhouse Kitchen has a warm, homely atmosphere and serves delicious coffee and light bites. It's open from 9 am to 4:30 pm on weekdays, perfect for a relaxed visit.\n\nRoast & Toast is another lovely choice, known for its homemade food and friendly vibe. It’s open from 9:30 am to 4 pm, making it ideal for a casual lunch.\n\nIf you fancy something a bit different, Finkles offers a cosy setting with outdoor seating, open from 9 am to 4 pm.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a lively café open on Sundays.",
+      "answer": "I know just the lively cafés that are open on Sundays.\n\nBrew Brothers is a bustling spot where you can enjoy exceptional coffee and homemade cakes, perfect for a social atmosphere. It's open from 9 am to 3 pm.\n\nFarrers Tea & Coffee House offers a vibrant setting with a rich history, serving delicious cakes and light meals. It's also open from 9 am to 5:30 pm on Sundays.\n\nIf you fancy something a bit different, Baba Ganoush is a lively vegetarian café and soup kitchen, open from 9:30 am to 3 pm.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a pub with outdoor seating.",
+      "answer": "I know a couple of great pubs with outdoor seating that you'll enjoy.\n\nThe Factory Tap has a laid-back atmosphere, offering a fantastic selection of beers and a lovely beer garden, perfect for relaxing with friends.\n\nMasons Yard 24 is another excellent choice, featuring a large yard with a covered heated area, ideal for enjoying drinks outside.\n\nIf you fancy something a bit different, The Barrel House is a friendly spot with a welcoming vibe and outdoor seating, great for meeting up with friends.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a café with vegan options.",
+      "answer": "I know a couple of cafés that offer vegan options and would be perfect for you.\n\nThe Garden Cafe & Take Away is a lovely spot serving fresh homemade vegan food in a warm, welcoming atmosphere. It's open Wednesday to Saturday from 9:30 am to 4:30 pm.\n\nAnother great choice is Baba Ganoush, a vibrant vegetarian café and soup kitchen, open Tuesday to Saturday from 9:30 am to 3 pm. It has a lively vibe and plenty of delicious options.\n\nIf you fancy something a bit different, Crumb. offers trendy sourdough sandwiches and specialty coffee, though I'm not certain about vegan options. \n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a quiet café for working.",
+      "answer": "I know a couple of quiet cafés that would be perfect for working.\n\nBlend & Brew Kendal is a lovely spot with a calm atmosphere, serving first-class coffee and delicious treats. It’s a great place to focus on your work.\n\nFarrers Tea & Coffee House offers a peaceful vibe in a historic setting, where you can enjoy freshly roasted coffee and fine teas while you work.\n\nIf you fancy something a bit different, The Cottage Kitchen has a quiet ambiance and serves quality home-cooked food, perfect for a break.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a mid-range (££) café.",
+      "answer": "I know just the spot for a lovely mid-range café experience. \n\nFarmhouse Kitchen is a cosy café with a contemporary Cumbrian farmhouse feel, serving delicious coffee and light bites. It's open from 9 am to 4:30 pm on weekdays, making it perfect for a relaxed lunch.\n\nWaterside Cafe and Bistro offers a welcoming atmosphere and filling portions, also in the mid-range category. It’s open from 9 am to 5 pm on weekdays and 8:30 am on weekends, ideal for a leisurely meal.\n\nIf you fancy something a bit different, Marra focuses on sourdough and is open from 10 am to 3 pm, perfect for a unique lunch. \n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a late-night pub.",
+      "answer": "I know just the place for a late-night outing. \n\nCortillo Lounge is a relaxed neighbourhood café bar, open until midnight on weekends, serving great food and drinks all day. It’s a lovely spot to unwind with friends.\n\nIf you’re looking for something lively, Indie Craft Beer offers a fantastic selection of local and international brews, staying open late for a vibrant atmosphere.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a family-friendly café.",
+      "answer": "I know just the spot for a family-friendly café. \n\nRomneys is a lovely family-run inn with a modern interior and a play area, perfect for enjoying a meal together. It's open from 9 am to 12 am, so there's plenty of time to visit.\n\nIf you're looking for something a bit different, The Bakery at No.4 offers a cozy atmosphere with delicious pastries and a few tables to sit and enjoy your treats. \n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a trendy café with WiFi.",
+      "answer": "I know just the spot for a trendy café with WiFi.\n\nFold Coffee is a lovely speciality coffee shop, perfect for a relaxed vibe. It offers a collaborative space for work, chill, and chat, open Monday to Friday.\n\nKin. is another great choice, serving artisan coffee and home-baked cakes in a stylish setting. It's open Monday to Saturday, making it ideal for a cozy work session.\n\nIf you fancy something a bit different, Kakaw specializes in delightful hot chocolate drinks and has a modern, Instagram-worthy atmosphere, open Wednesday to Monday.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a café serving lunch.",
+      "answer": "I know just the spot for a lovely lunch. \n\nFarmhouse Kitchen is a charming choice, open daily until 4:30 pm, offering a warm atmosphere and delicious light bites. It’s perfect for a relaxed break.\n\nWaterside Cafe and Bistro also serves lunch until 5 pm on weekdays and 5 pm on weekends, with a welcoming vibe and generous portions that are sure to satisfy.\n\nIf you fancy something a bit different, Marra is open until 3 pm and focuses on a unique sourdough menu, which is definitely worth a try.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a cosy pub for evening drinks.",
+      "answer": "I know just the place for a cosy evening drink. \n\nFell Bar Kendal is a charming spot tucked away from the main streets, offering a warm atmosphere and a great selection of drinks. It’s dog-friendly too, which is a lovely touch.\n\nIf you’re looking for something a bit different, The New Union has a friendly vibe with craft ales and a welcoming feel, perfect for a relaxed evening.\n\nBoth options are great for winding down after a long day. Which one sounds best to you?",
+      "score": 9.6,
+      "details": {
+        "length": {
+          "score": 8,
+          "notes": [
+            "Closing line exceeds 10 words."
+          ]
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a gluten-free friendly café.",
+      "answer": "I know a couple of lovely cafés that are great for gluten-free options.\n\nWaterside Cafe and Bistro has a welcoming atmosphere and serves delicious gluten-free meals, perfect for a relaxed lunch by the water. It's open Monday to Friday from 9 am to 5 pm, and Saturday to Sunday from 8:30 am to 5 pm.\n\nThe Cottage Kitchen also offers a range of gluten-free dishes, focusing on quality home-cooked food made from local produce. You can visit them Monday to Saturday from 10 am to 4 pm.\n\nBoth spots should suit your needs nicely. Which one sounds best to you?",
+      "score": 9.6,
+      "details": {
+        "length": {
+          "score": 8,
+          "notes": [
+            "Closing line exceeds 10 words."
+          ]
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a pub open past 10 pm.",
+      "answer": "I know just the place for a late-night outing. \n\nCortillo Lounge is a relaxed café bar open until midnight on weekends, serving great food and drinks in a friendly atmosphere. \n\nIf you’re looking for something lively, The Horse & Rainbow is also open late, offering a wide variety of drinks and a great vibe. \n\nFancy another option? The Clock Tower is lively and stays open until 12:30 am during the week, perfect for a late-night pint. \n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find an Instagrammable café.",
+      "answer": "I know a couple of trendy cafés that are perfect for your Instagram needs.\n\nKakaw is a delightful spot known for its exquisite hot chocolate and charming atmosphere, making it a lovely backdrop for your photos. It's open Wednesday to Monday from 9 am to 5 pm.\n\nAbout Time - Espresso Bar is another great choice, featuring a stylish interior and locally roasted coffee. It's open Tuesday to Saturday from 9:30 am to 4:30 pm.\n\nIf you fancy something a bit different, Brew Brothers has a lively vibe and serves exceptional coffee and homemade cakes, open Monday, Tuesday, Thursday, Friday, and Saturday from 8 am to 4 pm.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a heritage/local iconic venue.",
+      "answer": "I know just the spot for you! \n\nFarrers Tea & Coffee House is a charming café in an 18th-century building, serving freshly roasted coffee and fine teas. It's a lovely place to enjoy delicious cakes and light meals. \n\nThe Joshua Tree is another great option, nestled in a historic 16th-century building. This family-run café offers a warm welcome and fine food, perfect for a cozy visit. \n\nBoth places have that local heritage feel, which makes them special. Which one sounds best to you?",
+      "score": 9.6,
+      "details": {
+        "length": {
+          "score": 8,
+          "notes": [
+            "Closing line exceeds 10 words."
+          ]
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a vegetarian-friendly café.",
+      "answer": "I know a couple of great vegetarian-friendly cafés you might enjoy.\n\nBrew Brothers is a lively spot serving exceptional coffee and homemade cakes, perfect for a social lunch with friends. It's open Monday to Saturday, 8 am to 4 pm.\n\nMarra offers a cosy atmosphere with a menu focused on traditional sourdough, made fresh daily. You can visit from Monday to Saturday, 10 am to 3 pm.\n\nIf you fancy something a bit different, Baba Ganoush is a vibrant vegetarian café and soup kitchen, open Tuesday to Saturday, 9:30 am to 3 pm.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a café open before 9 am.",
+      "answer": "I know just the spot for an early start. \n\nCrumb. opens at 7 am, offering freshly toasted sourdough sandwiches and specialty Dark Woods coffee, perfect for a quick breakfast before your day begins.\n\nAnother great choice is Fold Coffee, which opens at 7:30 am. It's a lovely specialty coffee shop with a cozy vibe, ideal for a relaxed morning.\n\nIf you fancy something a bit different, Brew Brothers opens at 8 am, serving delightful homemade cakes and a lively atmosphere.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a dog-friendly pub.",
+      "answer": "I know just the place for a dog-friendly pub experience.\n\nFell Bar Kendal is a cosy spot tucked away in the town centre, welcoming both two-legged and four-legged friends. It's perfect for a laid-back evening with a great atmosphere.\n\nAnother option is the New Union, a quiet pub known for its friendly vibe and dog-friendly environment, making it a lovely spot to relax with your furry companion.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a quiet pub for a relaxed drink.",
+      "answer": "I know just the spot for a quiet drink. \n\nThe New Union is a lovely, dog-friendly pub with a warm atmosphere, perfect for unwinding. It’s open from 3 pm to 11 pm, serving craft keg and real ales.\n\nIf you’re looking for something a bit different, Handsome Bar offers a relaxed vibe and is also dog-friendly, though it has slightly shorter hours, open from 1 pm to 10 pm on Tuesdays.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    },
+    {
+      "question": "Find a pub with outdoor seating and dog-friendly tags.",
+      "answer": "I know just the place for you! \n\nFell Bar Kendal is a cosy pub with outdoor seating, perfect for enjoying a drink with your furry friend. It's a welcoming spot with a great atmosphere.\n\nThe Factory Tap also offers outdoor seating and a lively vibe, making it a fantastic choice for socializing while your dog relaxes by your side.\n\nIf you fancy something a bit different, Masons Yard 24 has a trendy feel, with a lovely outdoor area and a dog-friendly policy.\n\nWhich one sounds best to you?",
+      "score": 10.0,
+      "details": {
+        "length": {
+          "score": 10,
+          "notes": []
+        },
+        "tone": {
+          "score": 10,
+          "notes": []
+        },
+        "structure": {
+          "score": 10,
+          "notes": []
+        },
+        "style": {
+          "score": 10,
+          "notes": []
+        },
+        "logic": {
+          "score": 10,
+          "notes": []
+        }
+      }
+    }
+  ],
+  "timestamp": "2025-12-11_12-16-12"
+}

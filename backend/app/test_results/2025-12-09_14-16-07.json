@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-12-09_14-16-07",
+  "question": "Find a cosy cafe that allows dogs",
+  "answer": "I know just the place for a cosy café that welcomes dogs.\n\nFarmhouse Kitchen is a lovely spot with a warm atmosphere, serving great coffee and light bites. It’s open Sun–Thurs from 9 am to 4:30 pm, and Fri–Sat until 5 pm.\n\nRoast & Toast is another charming option, known for its homemade food and friendly vibe. They’re open Mon–Sat from 9:30 am to 4 pm.\n\nIf you fancy something a bit different, Finkles has a quaint feel and outdoor seating, perfect for enjoying the fresh air with your furry friend. They’re open Mon–Sat from 9 am to 4 pm.\n\nWhich one sounds best to you?",
+  "final_score": 10.0,
+  "details": {
+    "length": {
+      "score": 10,
+      "notes": []
+    },
+    "tone": {
+      "score": 10,
+      "notes": []
+    },
+    "structure": {
+      "score": 10,
+      "notes": []
+    },
+    "style": {
+      "score": 10,
+      "notes": []
+    },
+    "logic": {
+      "score": 10,
+      "notes": []
+    }
+  }
+}
