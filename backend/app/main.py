@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from app.services.data_loader import load_locations, load_tags
+from fastapi.middleware.cors import CORSMiddleware
 from app.routes import recommend
 from app.routes.testing import router as testing_router
 from app.routes.bulk_testing import router as bulk_testing_router
@@ -15,6 +16,13 @@ app.include_router(recommend.router, prefix="/api")
 app.include_router(testing_router, prefix="/api")
 app.include_router(bulk_testing_router, prefix="/api")
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],   # in production, set your real domain
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/health")
 def health():

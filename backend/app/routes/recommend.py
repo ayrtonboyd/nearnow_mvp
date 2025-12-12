@@ -5,5 +5,5 @@ router = APIRouter()
 
 @router.get("/recommend")
 def recommend(query: str):
-    response = run_llm(query)
-    return {"response": response}
+    answer = run_llm(query)
+    return {"answer": answer}
