@@ -64,7 +64,7 @@ export default function Home() {
 
       {/* Search Card */}
       <div className="w-full max-w-xl bg-white shadow-lg rounded-xl p-6 border border-gray-200">
-        <label className="block mb-2 font-medium text-gray-700">
+        <label className="block mb-2 font-medium text-black">
           What are you looking for?
         </label>
 
@@ -72,7 +72,7 @@ export default function Home() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="e.g., cosy café open for lunch"
-          className="w-full border border-gray-300 rounded-lg p-3 mb-4 focus:outline-none focus:ring-2 focus:ring-[#449787]"
+          className="w-full border border-gray-300 rounded-lg p-3 mb-4 text-black focus:outline-none focus:ring-2 focus:ring-[#449787]"
         />
 
         <button
