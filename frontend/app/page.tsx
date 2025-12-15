@@ -1,43 +1,43 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { FiSend } from "react-icons/fi"; // paper-plane icon
 
 export default function Home() {
   const [query, setQuery] = useState("");
   const [response, setResponse] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [suggestions, setSuggestions] = useState<string[]>([]);
 
-  // Pool of rotating example questions
-  const allExampleQueries = [
+  // Full suggestion pool (20 rotating)
+  const suggestionPool = [
     "Cosy café open for lunch",
     "Dog-friendly pub for a quiet pint",
     "Trendy café with WiFi",
     "Pub with outdoor seating",
     "Vegetarian-friendly lunch spot",
-    "Quiet café for remote work",
-    "Late-night dessert café",
-    "Family-friendly brunch spot",
-    "High-end pub for a nice dinner",
-    "Budget-friendly café under £7",
-    "Scenic café with outdoor seating",
-    "Cosy pub with real ales",
-    "Instagrammable café",
-    "Vegan-friendly café",
-    "Gluten-free lunch spot",
-    "Café open early for breakfast",
-    "Pub open late on weekends",
-    "Heritage café with character",
-    "Stylish modern coffee shop",
-    "Relaxed pub for catching up"
+    "Late-night coffee place",
+    "Quiet café to work from",
+    "Scenic pub for Sunday lunch",
+    "Budget-friendly café",
+    "Premium restaurant for dinner",
+    "Instagrammable brunch spot",
+    "Heritage café in town",
+    "Family-friendly pub",
+    "Vegan-friendly breakfast",
+    "Gluten-free café options",
+    "Cosy café open early",
+    "Pub with a lively atmosphere",
+    "Café with outdoor tables",
+    "Dog-friendly brunch place",
+    "Quiet spot for reading"
   ];
 
-  const [suggested, setSuggested] = useState<string[]>([]);
-
+  // Pick 3 random suggestions on each page load
   useEffect(() => {
-    // Pick 3 random suggestions each refresh
-    const shuffled = [...allExampleQueries].sort(() => 0.5 - Math.random());
-    setSuggested(shuffled.slice(0, 3));
+    const shuffled = [...suggestionPool].sort(() => 0.5 - Math.random());
+    setSuggestions(shuffled.slice(0, 3));
   }, []);
 
   const handleSearch = async () => {
@@ -77,60 +77,67 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col items-center min-h-screen p-6 bg-[#f6f4ee]">
-      
+    <main className="flex flex-col items-center min-h-screen p-6 bg-[#f6f4ee] text-black">
+
       {/* Logo */}
-      <img 
+      <img
         src="/logo.png"
         alt="NearNow logo"
-        className="w-48 mb-6"
+        className="w-45 mb-4 mt-4"
       />
 
-      {/* Search Card */}
-      <div className="w-full max-w-xl bg-white shadow-lg rounded-xl p-6 border border-gray-200">
-        <label className="block mb-2 font-medium text-black">
-          What are you looking for?
-        </label>
+      {/* Tagline + intro */}
+      <h1 className="text-2xl font-bold text-center mb-2">
+        Be a local, anywhere.
+      </h1>
 
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="e.g., cosy café open for lunch"
-          className="w-full border border-gray-300 rounded-lg p-3 mb-4 
-                     text-black focus:outline-none focus:ring-2 focus:ring-[#449787]"
-        />
+      <p className="text-center max-w-xl text-gray-700 mb-8">
+        NearNow is your friendly Kendal-based AI concierge.
+        Ask naturally and I’ll recommend the best cafés and pubs based on
+        what you’re in the mood for. This demo currently works with Kendal venues only.
+      </p>
 
-        <button
-          onClick={handleSearch}
-          disabled={loading}
-          className="w-full bg-[#449787] text-white py-3 rounded-lg font-medium 
-                     hover:bg-[#538d90] transition disabled:bg-[#538d90]"
-        >
-          {loading ? (
-            <span className="animate-pulse">Searching…</span>
-          ) : (
-            "Search"
-          )}
-        </button>
+      {/* Main Container */}
+      <div className="w-full max-w-xl bg-white shadow-lg rounded-2xl p-6 border border-gray-200">
 
-        {/* NEW — Rotating 3-Box Suggestions */}
-        <div className="mt-6">
-          <p className="text-sm text-black mb-3">Try one of these:</p>
+        {/* Greeting */}
+        <h2 className="text-lg text-center font-medium mb-4">
+          How can I help you today?
+        </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            {suggested.map((item, index) => (
-              <div
-                key={index}
-                onClick={() => setQuery(item)}
-                className="cursor-pointer bg-white border border-gray-300 
-                           hover:border-[#449787] hover:shadow-md 
-                           p-3 rounded-lg text-sm 
-                           transition leading-snug text-black"
-              >
-                {item}
-              </div>
-            ))}
-          </div>
+        {/* Input Field with embedded button */}
+        <div className="flex items-center border border-gray-300 rounded-xl px-3 mb-4 bg-white focus-within:ring-2 focus-within:ring-[#449787]">
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Ask NearNow..."
+            className="w-full p-3 text-black focus:outline-none"
+          />
+
+          <button
+            onClick={handleSearch}
+            disabled={loading}
+            className="p-2 text-[#449787] hover:text-[#2f6e65] transition disabled:text-gray-400"
+          >
+            <FiSend size={22} />
+          </button>
+        </div>
+
+        {/* Suggested Questions */}
+        <h3 className="text-center font-medium mb-3">Suggested Questions:</h3>
+
+        {/* Cards Row */}
+        <div className="flex gap-3 overflow-x-auto pb-2">
+          {suggestions.map((item, index) => (
+            <button
+              key={index}
+              onClick={() => setQuery(item)} // does NOT auto-search
+              className="min-w-[150px] max-w-[150px] bg-white border border-[#449787] rounded-xl p-3 
+                         text-sm text-left hover:bg-[#e7f4f2] hover:border-[#2f6e65] transition"
+            >
+              {item}
+            </button>
+          ))}
         </div>
 
         {error && (
@@ -138,10 +145,9 @@ export default function Home() {
         )}
       </div>
 
-      {/* Response Box */}
+      {/* Results */}
       {response && (
-        <div className="w-full max-w-xl mt-6 bg-white shadow-md p-6 rounded-xl 
-                        border border-gray-200 whitespace-pre-line">
+        <div className="w-full max-w-xl mt-6 bg-white shadow-md p-6 rounded-xl border border-gray-200 whitespace-pre-line">
           <h2 className="text-xl font-semibold mb-2 text-[#449787]">
             Results
           </h2>
