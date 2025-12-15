@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRef } from "react";
 import { FiSend } from "react-icons/fi"; // paper-plane icon
 
 export default function Home() {
@@ -9,6 +10,9 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [displayedResponse, setDisplayedResponse] = useState("");
+  const resultsRef = useRef<HTMLDivElement | null>(null);
+
 
   // Full suggestion pool (20 rotating)
   const suggestionPool = [
@@ -63,12 +67,35 @@ export default function Home() {
 
       const data = await res.json();
 
-      setResponse(
-        data.answer ||
-          data.response ||
-          data.content ||
-          "No response received."
-      );
+      const fullText =
+      data.answer ||
+      data.response ||
+      data.content ||
+      "No response received.";
+    
+    setResponse(fullText); // store final response normally
+    setDisplayedResponse(""); // reset typing animation
+    
+    // Typing animation
+    let i = 0;
+    const speed = 25; // ms per character
+    
+    const typer = () => {
+      setDisplayedResponse(fullText.slice(0, i));
+    
+      // Auto-scroll as text appears
+      if (resultsRef.current) {
+        resultsRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
+      }
+    
+      if (i < fullText.length) {
+        i++;
+        setTimeout(typer, speed);
+      }
+    };
+    
+    typer();
+    
     } catch (err) {
       setError("Unable to connect to the NearNow server.");
     }
@@ -151,7 +178,9 @@ export default function Home() {
           <h2 className="text-xl font-semibold mb-2 text-[#449787]">
             Results
           </h2>
-          <p className="text-gray-800 leading-relaxed">{response}</p>
+          <p ref={resultsRef} className="text-gray-800 leading-relaxed">
+            {displayedResponse}
+          </p>
         </div>
       )}
     </main>
